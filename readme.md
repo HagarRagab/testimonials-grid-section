@@ -4,11 +4,11 @@
 
 ## Design on Desktop
 
-![Design on Desktop](./design/127.0.0.1_5500_index.html.png)
+![Design on Desktop](./design/127.0.0.1_5500_.png)
 
 ## Design on Mobile
 
-![Design on Mobile](<./design/127.0.0.1_5500_index.html(iPhone%20SE).png>)
+![Design on Mobile](<./design/127.0.0.1_5500_(iPhone SE).png>)
 
 ### Used tools
 

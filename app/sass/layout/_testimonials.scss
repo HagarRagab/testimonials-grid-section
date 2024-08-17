@@ -45,9 +45,12 @@
         }
     }
 
+    @include breakpoint ('tablet') {
+        margin: 120px;
+    }
     @include breakpoint ('desktop') {
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
         .daniel {
             grid-column: 1 / 3;
         }
