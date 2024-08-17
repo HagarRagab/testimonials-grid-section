@@ -1,0 +1,7 @@
+@use "../abstract/variables" as *;
+
+.testimonial {
+    border-radius: $border-radius;
+    background-color: cyan;
+    padding: 20px;
+}

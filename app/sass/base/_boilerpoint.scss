@@ -1,0 +1,29 @@
+@use "./colors" as *;
+@use "../abstract/breakpoint" as *;
+
+html {
+    box-sizing: border-box;
+    font-size: 13px;
+    @include breakpoint('tablet') {
+        font-size: 16px;
+    }
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: $light-grayish-blue;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
